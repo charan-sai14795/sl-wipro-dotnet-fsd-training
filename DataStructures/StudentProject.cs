@@ -4,6 +4,16 @@ using System.Text;
 using System.IO;
 namespace DataStructures
 {
+    /// <summary>
+    /// Student Project:
+    /// Step 1: Create a text file with following city values - one value per line:
+    ///    Mumbai, Delhi, Bangalore , Hyderabad, Ahmedabad, Chennai, Kolkata, Surat, Pune, Jaipur, Lucknow, Kanpur, Nagpur, Indore, Thane
+    /// Step 2: Read the text file into an array of strings
+    /// Step 3: Display the contents of the array
+    /// Step 4: Sort the array using Selection or Bubble sort algorithm
+    /// Step 5: Display the sorted array
+    /// Step 6. Enable searching through the array using Binary search
+    /// </summary>
     public class StudentProject
     {
         public static void ReadFile()
@@ -14,7 +24,8 @@ namespace DataStructures
             foreach (string ln in lines)
                 Console.Write(ln + " ");
             Console.WriteLine();
-            
+        }
+
             sortingofstrings(lines);
         }
         static void sortingofstrings(string[] cities)
@@ -29,19 +40,20 @@ namespace DataStructures
                         cities[i] = cities[j];
                         cities[j] = temp;
 
-                    }
                 }
             }
+        }
             Console.WriteLine("after sorting the cities");
             foreach (string ln in cities)
                 Console.Write(ln + " ");
             Console.WriteLine();
             BinarySearch(cities);
 
+            int foundElem = -1;
 
         }
     static void BinarySearch(string[] cities)
-        {
+            {
             int found = -1;
             int mi = 0;
             int ma=cities.Length-1;
@@ -74,5 +86,5 @@ namespace DataStructures
         }
        
     }
-    }
+}
 
