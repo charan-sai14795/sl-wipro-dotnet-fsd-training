@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpPractice", "CSharpPra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OopsUsingCSharp", "OopsUsingCSharp\OopsUsingCSharp.csproj", "{779A3E47-B0A1-4E04-8947-2DAFE3FD4601}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OopsProject", "OopsProject\OopsProject.csproj", "{2AFB726E-4B7B-4612-B952-4BB4A1F27BB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OopsProject", "OopsProject\OopsProject.csproj", "{2AFB726E-4B7B-4612-B952-4BB4A1F27BB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
